@@ -111,8 +111,6 @@ def get_coord_of_hotspot(caminho_ftmap:str):
 
 
 
-#Criar contorno em torno do hot spot druggable.
-
 
 def get_features_from_ftmap_and_fragmap(caminho_ftmap:str,
                                         caminho_fragmap:str, 
