@@ -63,7 +63,7 @@ def get_active_site(caminho_ftmap:str, saida_active_site: str ):
     cmd.reinitialize()
         
 
-
+#get coord of hotspots
 def get_coord_of_hotspot(caminho_ftmap:str):
 
     ftmap = load_atlas(caminho_ftmap, plot = False, table = False)
